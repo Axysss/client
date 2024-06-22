@@ -14,8 +14,8 @@ export class MakeAnOrder extends Component {
 
         <h1 className='text-2xl my-6'><b>2</b> Выберете способ получения</h1>
         <div className='my-4'>
-        <a href="" class="button-s">Самовывоз</a>
-        <a href="" class="button-s">Доставка</a>
+        <a href="/making-an-order" class="button-s">Самовывоз</a>
+        <a href="/making-an-order" class="button-s">Доставка</a>
         </div>
         <div>
             <h1 className="text-2xl text-center mb-10" >ISMART на этой улице</h1>
@@ -33,9 +33,9 @@ export class MakeAnOrder extends Component {
 
         <h1 className='text-2xl my-6'><b>3</b> Выберете способ оплаты</h1>
         <div className='my-4'>
-          <a href="" class="button-s">При получении</a>
-          <a href="" class="button-s">Онлайн</a>
-          <a href="" class="button-s">Кредит</a>
+          <a href="/making-an-order" class="button-s">При получении</a>
+          <a href="/making-an-order" class="button-s">Онлайн</a>
+          <a href="/making-an-order" class="button-s">Кредит</a>
         </div>
         <Link to= "/" class="button-order2">
         <a href="/"><span>Подтвердить заказ</span></a>
