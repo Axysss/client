@@ -7,7 +7,7 @@ export default function AboutUs() {
       <div className="container">
         <div className="box">
           <div className="mid">
-            <img src={"./img/star.png"} />
+            <img alt="" src={"./img/star.png"} />
             <h3 className="textUp">Опыт работы больше 10 лет</h3>
           </div>
           <p>
@@ -18,7 +18,7 @@ export default function AboutUs() {
         </div>
         <div className="box">
           <div className="mid">
-            <img src={"./img/speed.png"} />
+            <img alt=""  src={"./img/speed.png"} />
             <h3 className="textUp2">Честные цены и сроки ремонта</h3>
           </div>
           <p>
@@ -31,7 +31,7 @@ export default function AboutUs() {
       <div className="container">
         <div className="box2">
           <div className="mid">
-            <img src={"./img/settings.png"} />
+            <img alt=""  src={"./img/settings.png"} />
             <h3 className="text1">Качество – превыше всего!</h3>
           </div>
           <p>
@@ -42,7 +42,7 @@ export default function AboutUs() {
         </div>
         <div className="box2">
           <div className="mid">
-            <img src={"./img/speed.png"} />
+            <img alt=""  src={"./img/speed.png"} />
             <h3 className="text2">Жизнь в движении</h3>
           </div>
           <p>
@@ -53,7 +53,7 @@ export default function AboutUs() {
         </div>
         <div className="box2">
           <div className="mid">
-            <img src={"./img/hands.png"} />
+            <img alt=""  src={"./img/hands.png"} />
             <h3 className="text3">Официальные производители</h3>
           </div>
           <p>
@@ -64,7 +64,7 @@ export default function AboutUs() {
         </div>
         <div className="box2">
           <div className="mid">
-            <img src={"./img/verified.png"} />
+            <img alt=""  src={"./img/verified.png"} />
             <h3 className="text4">Гарантия</h3>
           </div>
           <p>

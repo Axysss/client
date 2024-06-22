@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import { FaShoppingCart } from "react-icons/fa";
 import Order from './Order';
 import { Link } from 'react-router-dom';
-import { Button } from '@mui/material';
 
 const showOrders = (props) => {
   let summa = 0

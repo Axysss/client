@@ -1,6 +1,6 @@
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { fetchAuth, fetchRegister, selectIsAuth } from "../../redux/slices/auth";
+import {  fetchRegister, selectIsAuth } from "../../redux/slices/auth";
 import { useForm } from "react-hook-form"; 
 import { Navigate } from "react-router-dom";
 

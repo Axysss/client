@@ -15,7 +15,7 @@ export const AddPost = () => {
   const {id} = useParams();
   const navigate = useNavigate();
   const isAuth = useSelector(selectIsAuth);
-  const [isLoading, setLoading] = React.useState('false');
+  const [ setLoading] = React.useState('false');
   const [text, setText] = React.useState('');
   const [title, setTitle] = React.useState('');
   const [tags, setTags] = React.useState('');
@@ -85,7 +85,7 @@ export const AddPost = () => {
         alert('Ошибка при получении статьи')
       })
     }
-  }, [])
+  }, [id])
 
   const options = React.useMemo(
     () => ({
